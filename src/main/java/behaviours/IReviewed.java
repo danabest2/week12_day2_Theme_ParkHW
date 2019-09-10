@@ -1,5 +1,6 @@
 package behaviours;
 
 public interface IReviewed {
-    public String review(String data);
+    public int getRating();
+    public String getName();
 }

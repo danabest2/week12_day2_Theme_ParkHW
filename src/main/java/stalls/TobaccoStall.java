@@ -11,10 +11,6 @@ public class TobaccoStall extends Stall implements IReviewed, ISecurity {
         super(name, ownerName, parkingSpot, rating);
     }
 
-    @Override
-    public String review(String data) {
-        return null;
-    }
 
     public boolean isAllowedTo(Visitor visitor2){
         if(visitor2.getAge() >=18 ){

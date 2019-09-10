@@ -8,8 +8,5 @@ public class Park extends Attraction implements IReviewed {
         super(name, rating);
     }
 
-    @Override
-    public String review(String data) {
-        return "Was reviewed " + data;
-    }
+
 }

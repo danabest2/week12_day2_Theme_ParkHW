@@ -8,8 +8,5 @@ public class IceCreamStall extends Stall implements IReviewed {
         super(name, ownerName, parkingSpot, rating);
     }
 
-    @Override
-    public String review(String data) {
-        return null;
-    }
+
 }

@@ -7,8 +7,5 @@ public class CandyflossStall extends Stall implements IReviewed {
     public CandyflossStall(String name, String ownerName, ParkingSpot parkingSpot, int rating) {
         super(name, ownerName, parkingSpot, rating);
     }
-    @Override
-    public String review(String data) {
-        return null;
-    }
+
 }
