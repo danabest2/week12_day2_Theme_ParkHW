@@ -16,7 +16,8 @@ public class RollerCoaster  extends Attraction implements IReviewed, ISecurity {
         return "Was reviewed " + data;}
 
     public boolean isAllowedTo(Visitor visitor1){
-        if(visitor1.getAge() < 12 ){
+        if((visitor1.getAge() > 12) &&
+            (visitor1.getHeight()) > 1.45){
             return true;
         }
         return false;
